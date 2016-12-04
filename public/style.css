@@ -1,0 +1,56 @@
+body {
+  background: linear-gradient(141deg, #0fb8ad 0%, #1fc8db 51%, #2cb5e8 75%);
+}
+
+.btn-todo {
+  width: 100%;
+  background-color: #2cb5e8;
+  color: #FFFFFF;
+  font-weight: bold;
+  margin-top: 5px;
+}
+
+.btn-todo-2 {
+  background-color: green;
+  color: #FFFFFF;
+  font-weight: bold;
+}
+
+.btn-todoList {
+  margin: 3px;
+}
+
+.loginBody {
+  padding-top: 100px;
+  height: 100vh;
+}
+
+.roomBody {
+  height: 100vh;
+}
+
+.panel {
+  border: none;
+}
+
+.panel-heading {
+  background-color: #2cb5e8;
+  color: #FFFFFF;
+  font-weight: bold;
+}
+
+.content {
+  padding: 0px 15px;
+}
+
+.navbar {
+  margin-bottom: 0px;
+}
+
+#room_title {
+  font-weight: bold;
+}
+
+.HideAddTodoTable {
+  display: none;
+}

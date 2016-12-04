@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <% include ./partials/css-header %>
+    <title>Join | Todo Room</title>
+</head>
+
+<body>
+  <div class="loginBody">
+    <div class="col-xs-12 col-sm-4 col-sm-offset-4">
+      <div class="panel">
+        <div class="panel-heading">Welcome To-Do App Room</div>
+        <div class="panel-body">
+          <div class="form-group">
+            <label for="Room">Room</label>
+            <input type="text" class="form-control" name="Room" placeholder="Room" autofocus autocomplete="false">
+          </div>
+          <div class="form-group">
+            <label for="exampleInputPassword1">Room Secret</label>
+            <input type="password" class="form-control" name="Secret" placeholder="Password">
+          </div>
+          <button type="submit" class="btn btn-todo" name="Login">Login Room</button>
+          <button type="submit" class="btn btn-todo" name="Create">Create Room</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <% include ./partials/js-footer %>
+
+    <script type="text/javascript">
+      indexInitHelper();
+    </script>
+    <script type="text/javascript" src="./public/js/index.js"></script>
+</body>
+
+</html>
